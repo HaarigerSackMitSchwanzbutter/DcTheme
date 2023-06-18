@@ -1,12 +1,4 @@
-/**
-* @name NotAnotherAnimeTheme
-* @author puckzxz#2080
-* @version 3.2
-* @description An easily customizable and automatically updating theme
-* @invite FdZhbjY
-* @source https://github.com/puckzxz/NotAnotherAnimeTheme
-* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
-*/
+
 
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 
@@ -21,22 +13,22 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://media.discordapp.net/attachments/705129263598403714/1120098895318483004/PkYDIw.jpg?width=1202&height=676);
+  --theme-background-image: url(https://r4.wallpaperflare.com/wallpaper/974/8/887/mf-doom-music-hip-hop-mask-wallpaper-29f008ada10a3deb0697984ff031266d.jpg);
 
   /*
     Main Theme Color
   */
-  --main-theme-color: rgb(196, 118, 2);
+  --main-theme-color: rgb(18, 140, 14, 2);
 
   /*
     Main Theme Transparency
   */
-  --theme-transparency: rgba(0, 0, 0, 0.55);
+  --theme-transparency: rgba(0, 0, 0, 0.5);
 
   /*
     Home Icon Image
   */
-  --home-icon-image: url(https://media.discordapp.net/attachments/934951331268030536/935842722999328798/a_5a196afeb02777ab07d35fc3a71032f6.gif);
+  --home-icon-image: url(https://media.tenor.com/0kjV6BbQOLMAAAAM/mf-doom-supervillain.gif);
 
   /*
     Change your friends icon image position
