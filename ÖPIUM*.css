@@ -2,28 +2,18 @@
 
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 
-/*
-  To make editing this theme easier I recommend using Notepad++
-  you can download it for free here https://notepad-plus-plus.org/download/
-*/
-
-/* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
-  /*
-    Theme Background
-  */
+  
   --theme-background-image: url(https://s11.gifyu.com/images/SgAcy.gif);
 
-  /*
-    Main Theme Color
-  */
-  --main-theme-color: rgb(18, 140, 14, 2);
+ 
+  --main-theme-color: rgb(196, 118, 2);
 
   /*
     Main Theme Transparency
   */
-  --theme-transparency: rgba(0, 0, 0, 0.5);
+  --theme-transparency: rgba(0, 0, 0, 0.55);
 
   /*
     Home Icon Image
@@ -35,6 +25,11 @@
   */
   --home-icon-image-position: center center;
 
+   /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
   /*
     Change your friends icon image zoom
   */
@@ -42,12 +37,12 @@
 
   /*
     Server Listing Width
-    Single Column:  72px
+    Single Column:  62px
     Double Column:  126px
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 72px;
+  --server-listing-width: 62px;
 
   /*
     Font Size
@@ -64,26 +59,26 @@
   /*
     Server category hover color
   */
-  --category-hover-color: rgb(196, 144, 2);
+  --category-hover-color: rgb(60, 202, 138);
 
   /*
     Change the unread server animation.
     Replace it with "none" in order to remove any animations and use the main color instead
   */
-  --unread-server-animation: none;
+  --unread-server-animation: rainbow;
 
   /*
     Video / Screen share buttons
   */
-  --video-screen-button-background-color: rgba((250, 166, 26, 1));
-  --video-screen-button-foreground-color: black;
-  --video-screen-button-background-hovor-color: rgba((250, 166, 26, 1);
-  --video-screen-button-foreground-hovor-color: black;
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
 
   /*
     Role Title Color
   */
-  --member-listing-role-color: rgb(155, 9, 178, 0.8);
+  --member-listing-role-color: var(--main-theme-color);
 
   /*
     Small User Popout
@@ -118,7 +113,7 @@
   /*
     Message Hover Buttons
   */
-  --message-hover-buttons-background: rgba(255, 157, 0, 1);
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
 
   /*
     Context Menu Transparency
@@ -141,7 +136,7 @@
   /*
     Scrollbar Colors
   */
-  --scrollbar-color: rgba(93, 5, 255, 0.39);
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
 
   /*
     Unread Message Divider
@@ -158,7 +153,7 @@
   /*
     Emoji Menu
   */
-  --emoji-menu-background-color: rgba(206, 67, 221, 0.25);
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
   --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
   --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
   --emoji-menu-bottom-bar-background-color: black;
@@ -174,7 +169,7 @@
   /*
     Channel colors
   */
-  --text-voice-channel-color: rgb(82, 130, 179);
+  --text-voice-channel-color: rgb(142, 146, 151);
   --text-voice-channel-hover-color: #dcddde;
   --text-voice-channel-selected-text-color: #fff;
   --unread-text-channel-color: #fff;
@@ -194,3 +189,4 @@
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
 }
+ 
